@@ -7,4 +7,6 @@ h1 {
 body{
     font-family:monospace;
 }
-
+.fv {
+    display:inline-flex;
+}
