@@ -1,5 +1,13 @@
 h1 {
-    color: blue;
-    background-color: yellow;
-    border: 1px solid black;
-  }
+    text-align: center;
+    color:#924acd;
+    box-sizing: content-box;
+}
+
+body{
+    font-family:monospace;
+}
+
+div {
+    display: inline;
+}
