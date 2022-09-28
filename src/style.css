@@ -4,6 +4,10 @@ h1 {
     box-sizing: content-box;
 }
 
+main {
+    text-align: center;
+}
+
 body{
     font-family:monospace;
 }
@@ -17,3 +21,4 @@ button {
     padding: 5px 15px;
     text-align: center;
 }
+
