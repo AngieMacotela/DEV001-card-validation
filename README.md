@@ -55,4 +55,4 @@ Botón de pago. Botón que ingresa y verifica que la información ingresada. Si 
 
 Boceto inicial en FIGMA
 
-<img src="img/logos/bocetos.png" alt=""><br/>
+<img src="bocetos.png">
