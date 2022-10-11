@@ -1,13 +1,17 @@
 import validator from './validator.js';
+console.log(validator)
 
-console.log(validator);
-let numerodetarjeta = document.getElementById ("numerodetarjeta");
-let numerodetarjetaNumero = array.from (numerodetarjeta);
-console.log(numerodetarjetaNumero);
-
-var button = document.getElementById ("realizaropago");
-button.addEventListener("click", clicked);
-
-function clicked () {
-    alert ("validotarjeta")
-}
+const enmascarar= document.getElementById("numero");
+let cardNumber;
+const validar= document.getElementById("realizarpago");
+validar.addEventListener( "click", function(){
+    cardNumber = enmascarar.value
+    enmascarar.value=validator.maskify(enmascarar.value)
+    console.log(cardNumber)
+    validator.isValid(cardNumber)
+    if (validator.isValid(cardNumber)) {
+        return alert("tarjeta valida");
+        } else {
+        return alert("tarjeta invalida")
+        }
+})

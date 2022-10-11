@@ -25,6 +25,19 @@
   },
   "engines": {
     "node": ">=16.x"
-  }
+  },
+  "description": "* [1. Objetivos de aprendizaje generales](#1-objetivos-de-aprendizaje-generales)\r * [2. Preámbulo](#2-preámbulo)\r * [3. Resumen del proyecto](#3-resumen-del-proyecto)\r * [4. Consideraciones generales](#4-consideraciones-generales)\r * [5. Hito 1: Criterios de aceptación mínimos del proyecto](#5-hito-1-criterios-de-aceptación-mínimos-del-proyecto)\r * [6. Hito 2 (opcional): Mostrar la franquicia de tarjeta](#6-hito-2-opcional-mostrar-la-franquicia-de-tarjeta)\r * [7. Consideraciones técnicas](#7-consideraciones-técnicas)\r * [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)\r * [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)\r * [10. Para considerar Project Feedback](#10-para-considerar-project-feedback)",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngieMacotela/DEV001-card-validation.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/AngieMacotela/DEV001-card-validation/issues"
+  },
+  "homepage": "https://github.com/AngieMacotela/DEV001-card-validation#readme"
 }
-

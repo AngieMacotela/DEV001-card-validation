@@ -1,24 +1,171 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(241, 240, 225);
+	font-family: 'Lato', sans-serif;
+}
+
+.bloqueTotal {
+	width: 90%;
+	max-width: 1000px;
+	padding: 40px 20px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
 h1 {
     text-align: center;
     color:#924acd;
     box-sizing: content-box;
+	padding-top: 50px;
 }
 
-main {
-    text-align: center;
+.tarjeta {
+	width: 100%;
+	max-width: 550px;
+	position: relative;
+	color: #fff;
+	transform: rotateY(0deg);
+	transform-style: preserve-3d;
+	cursor: pointer;
+    z-index: 1;
 }
 
-body{
-    font-family:monospace;
-}
-.fv {
-    display:inline-flex;
-}
-button {
-    background-color: #40058d; /* Morado */
-    border: none;
-    color: white;
-    padding: 5px 15px;
-    text-align: center;
+.tarjeta > div {
+	padding: 30px;
+	border-radius: 15px;
+	min-height: 315px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
+.delantera {
+	width: 100%;
+	max-width: 550px;
+	background: url(https://cdn.create.vista.com/downloads/cb641edb-04fb-429b-9cd7-15ffc0bfe16a_450.jpeg);
+	background-size: cover;
+    border-radius: 5%
+}
+
+.logo-marca {
+	text-align: right;
+	min-height: 50px;
+}
+
+.logo-marca img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	max-width: 100px;
+}
+
+.chip {
+	width: 100%;
+	max-width: 60px;
+	margin-bottom: 20px;
+}
+
+.delantera .grupo .label {
+	font-size: 16px;
+	color: #84c3ce;
+	margin-bottom: 5px;
+}
+
+.delantera .grupo .numero {
+	color: #fff;
+	font-size: 22px;
+}
+.delantera .grupo .nombre{
+	color: #fff;
+	font-size: 22px;
+}
+.delantera .grupo .expiracionTarjeta {
+	color: #fff;
+	font-size: 22px;
+}
+
+.delantera .flexbox {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+/* formulario */ 
+.formulario {
+	color: rgb(132, 111, 111);
+	background: #fff;
+	width: 100%;
+	max-width: 700px;
+	padding: 150px 30px 30px 30px;
+	border-radius: 10px;
+	position: relative;
+	top: -120px;
+}
+
+.formulario label {
+	display: block;
+	color: #7d8994;
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+
+input{
+	border: 2px solid #CED6E0;
+	font-size: 18px;
+	height: 50px;
+	width: 100%;
+	padding: 5px 12px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+button{
+	border: 2px solid #CED6E0;
+	background-color: #7238bd;
+	color: white;
+	font-size: 18px;
+	height: 50px;
+	width: 100%;
+	padding: 5px 12px;
+	border-radius: 5px;
+}
+
+select {
+	border: 2px solid #CED6E0;
+	font-size: 18px;
+	height: 50px;
+	width: 100%;
+	padding: 5px 12px;
+	border-radius: 5px;
+} 
+
+.flexbox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.expira {
+	width: 100%;
+}
+
+.codigo {
+	min-width: 100px;
+}
+
+.opciones {
+	width: 100%;
+	margin-right: 15px;
+	position: relative;
+}
+
+
+
+ 
