@@ -54,5 +54,3 @@ Datos e información propias del usuario/cliente. Desde aquí se aplican ambos m
 Botón de pago. Botón que ingresa y verifica que la información ingresada. Si el número de tarjeta es válido ✅, la página de iCASE lanzará una alerta indicando que la tarjeta ingresada es una tarjeta valida. En caso contrario ❌, la página de iCASE lanzará una alerta indicando que la tarjeta ingresada es invalida.
 
 Boceto inicial en FIGMA
-
-<img src="DEV001-card-validation\boceto.png" alt=""><br/>
