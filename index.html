@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="titulo">INGRESA TU TARJETA DE CREDITO</h1>
+    <div class="bloqueTotal">
+
+      <!-- Tarjeta -->
+      <section class="tarjeta" id="tarjeta">
+        <div class="delantera">
+          <div class="logo-marca" id="logo-marca">
+           <img src="img/logos/mastercard.png" alt=""><br/>
+          </div>
+          <img src="img/chip/chip.png" class="chip" alt="">
+          <div class="datosTarjeta">
+            <div class="grupo" id="numeroTarjeta">
+              <p class="label">Número Tarjeta</p>
+              <p class="numero">#### #### #### ####</p>
+            </div>
+            <div class="flexbox">
+              <div class="grupo" id="nombre">
+              <p class="label">Nombre Tarjeta</p>
+              <p class="nombre">Jhon Doe</p>
+              </div>
+              <div class="grupo" id="expiracion">
+              <p class="label">Expiracion</p>
+              <p class="expiracionTarjeta"><span class="mes">MM</span> / <span class="year">AA</span></p>
+              </div>
+            </div>
+        </div>
+      </div>
+      </section> 
+
+    <!-- Formulario -->
+    <section class="formulario" id="formulario">
+      <form>
+        <div class = "formulariotarjeta">
+         <label for="formularionumero">Numero de Tarjeta</label>
+         <input type="string" id="numero" name="name" placeholder="Numero de tarjeta" maxlength="16">
+        </div>
+        <div class = "formularionombre">
+         <label for="formularionombre">Nombre del propietario</label>
+         <input type="text" id="formularionombre" name="name" placeholder="Nombre y Apellido">
+        </div>
+        <div class="flexbox">
+          <div class="expira">
+            <label for="selectMes">Expiracion</label>
+            <div class="flexbox">
+              <div class="opciones">
+                <select name="mes" id="selectMes">
+                  <option disabled selected>Mes</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                </select>
+              </div>
+              <div class="opciones">
+                <select name="year" id="selectYear">
+                  <option disabled selected>Año</option>
+                  <option>2022</option>
+                  <option>2023</option>
+                  <option>2024</option>
+                  <option>2025</option>
+                  <option>2026</option>
+                  <option>2027</option>
+                  <option>2028</option>
+                </select>
+              </div>
+            </div>
+          </div> 
+          <div class="codigo">
+            <label for="codigo">CVV</label>
+            <input type="text" id="codigo" name="name" placeholder="CVV" maxlength="4">
+          </div>
+        </div>
+        <p id="validation1"></p>
+    <div class="boton">
+    <button type="button" id="realizarpago">Realiza pago</button>
+    </div>
+  </form>
+    </section>
+    </div>
+    <footer></footer>
+    <script src="index.js" type="module"></script>
+    <script src="validator.js" type="module"></script>
+  </body>
+</html>
